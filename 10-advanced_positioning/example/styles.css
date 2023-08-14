@@ -73,3 +73,8 @@ a:hover {
   z-index: 2;
   position: relative;
 }
+
+.btn-link {
+  color: #fff;
+  height: 40px;
+}

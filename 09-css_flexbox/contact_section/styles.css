@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f3f3ef;
+}
+
+.contact-us {
+  padding: 1em 4em;
+  display: flex;
+  justify-content: center;
+}
+
+.firstP {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-main {
+  gap: 40px;
+  padding: 2em 8em;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+li.contact-forms {
+  padding: 1em;
+}
+
+.first-name,
+.last-name,
+.country {
+  width: 600px;
+  height: 40px;
+}
+
+.subject-txtArea {
+  height: 200px;
+  width: 600px;
+}
+
+.submit-btn {
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  background-color: green;
+  font-weight: 700;
+  height: 40px;
+  width: 120px;
+}
+
+.pID-contact-forms {
+  padding: 1em 0;
+}

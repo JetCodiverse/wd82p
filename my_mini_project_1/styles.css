@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.nav-links {
+  color: #fff;
+  background-color: #222831;
+  list-style: none;
+  font-weight: 700;
+
+  padding: 1em 8em;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  list-style: none;
+
+  width: 600px;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.my-pic-container {
+  border: 10px solid #222831;
+  border-radius: 50%;
+  background-color: red;
+
+  width: 300px;
+  height: 300px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-pic {
+  height: 200px;
+  width: 300px;
+}

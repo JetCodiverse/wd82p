@@ -7,7 +7,7 @@
 
 .nav-links {
   color: #fff;
-  background-color: #222831;
+  background-color: #1e2022;
   list-style: none;
   font-weight: 700;
 
@@ -28,9 +28,15 @@
 }
 
 .my-pic-container {
-  border: 10px solid #222831;
+  padding: 2em 8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-pic {
+  /* border: 10px solid #2c3333; */
   border-radius: 50%;
-  background-color: red;
 
   width: 300px;
   height: 300px;
@@ -39,7 +45,81 @@
   justify-content: center;
   align-items: center;
 }
-.my-pic {
-  height: 200px;
-  width: 300px;
+
+.intro {
+  color: #1e2022;
+  padding: 2em 8em;
+  font-size: 18px;
+  font-weight: 100;
+  font-style: italic;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hire-me-btn-container {
+  padding: 1em 8em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hire-me-btn {
+  border: 1px solid #00b8a9;
+  border-radius: 20px;
+  color: #00b8a9;
+  background-color: #fff;
+  font-size: larger;
+  font-weight: 100;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+}
+
+.pics-container {
+  padding: 1em 8em;
+  list-style: none;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pic-1 img,
+.pic-2 img,
+.pic-3 img {
+  border: none;
+  border-radius: 5px;
+  height: 350px;
+  width: 450px;
+}
+
+.ul-lwys {
+  padding: 1em 8em;
+  list-style: none;
+  gap: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.li-lwys {
+  color: #1e2022;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.hire-me-2nd-btn {
+  border: 1px solid #00b8a9;
+  border-radius: 20px;
+  color: #00b8a9;
+  background-color: #fff;
+  font-size: larger;
+  font-weight: 100;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
 }

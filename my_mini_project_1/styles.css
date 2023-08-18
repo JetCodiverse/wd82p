@@ -112,6 +112,10 @@
   font-weight: 100;
 }
 
+h2 .li-lwys-h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .hire-me-2nd-btn {
   border: 1px solid #00b8a9;
   border-radius: 20px;
@@ -122,4 +126,13 @@
   cursor: pointer;
   width: 100px;
   height: 40px;
+}
+
+.spec-skills-text {
+  height: 100px;
+  padding: 2em 8em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

@@ -18,6 +18,10 @@
   align-items: center;
 }
 
+.brand-link {
+  text-decoration: none;
+}
+
 .links {
   list-style: none;
 

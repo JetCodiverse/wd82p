@@ -135,7 +135,7 @@ p {
 }
 
 .article-containers {
-  height: 550px;
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -157,6 +157,7 @@ p {
 .db-img {
   width: 100%;
   height: 100%;
+  border-radius: 5px;
 }
 
 .testemonials {
@@ -233,11 +234,11 @@ footer.footer-b-container {
 }
 
 .footer-icons {
-  width: 41px;
-  height: 32;
+  width: 25px;
+  height: 25px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 768px) {
   .grid-container {
     grid-template-columns: repeat(6, auto);
     grid-template-rows: repeat(10, auto);

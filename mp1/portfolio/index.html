@@ -12,14 +12,30 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="grid-container">
-      <nav class="nav">
+      <nav class="nav grid-borders">
         <ul class="ul-nav">
           <li><h3>BRAND</h3></li>
+
+          <li class="bar-menu">
+            <i class="fa-solid fa-bars"></i>
+            <ul class="menus-mobile">
+              <li><a href="#"></a>PORTFOLIO</li>
+              <li><a href="#"></a>ABOUT</li>
+              <li><a href="#"></a>CONTACT</li>
+            </ul>
+          </li>
+
           <li>
-            <ul>
+            <ul class="ul-nav-right">
               <li>PORTFOLIO</li>
               <li>ABOUT</li>
               <li>CONTACT</li>
@@ -28,7 +44,7 @@
         </ul>
       </nav>
 
-      <main class="hero-container">
+      <main class="hero-container grid-borders">
         <ul class="ul-hero">
           <li>my pic</li>
           <li><h1>Jeter Trajano</h1></li>
@@ -39,20 +55,20 @@
         </ul>
       </main>
 
-      <section class="sect-1 portfolio-text">
+      <section class="sect-1 portfolio-text grid-borders">
         <ul>
           <li><h2>PORTFOLIO</h2></li>
           <li>drawing star</li>
         </ul>
       </section>
 
-      <section class="sect-2 box-1 box-projects">proj-1</section>
-      <section class="sect-3 box-2 box-projects">proj-2</section>
-      <section class="sect-4 box-3 box-projects">proj-3</section>
-      <section class="sect-5 box-4 box-projects">proj-4</section>
-      <section class="sect-6 box-5 box-projects">proj-5</section>
-      <section class="sect-7 box-6 box-projects">proj-6</section>
-      <section class="sect-8 about">
+      <section class="sect-2 box-1 box-projects grid-borders">proj-1</section>
+      <section class="sect-3 box-2 box-projects grid-borders">proj-2</section>
+      <section class="sect-4 box-3 box-projects grid-borders">proj-3</section>
+      <section class="sect-5 box-4 box-projects grid-borders">proj-4</section>
+      <section class="sect-6 box-5 box-projects grid-borders">proj-5</section>
+      <section class="sect-7 box-6 box-projects grid-borders">proj-6</section>
+      <section class="sect-8 about grid-borders">
         <ul>
           <li>ABOUT</li>
           <li>
@@ -71,7 +87,7 @@
           <li><button class="submit-btn">SUBMIT</button></li>
         </ul>
       </section>
-      <section class="sect-9 contact-me">
+      <section class="sect-9 contact-me grid-borders">
         <ul class="ul-contact-me">
           <li>CONTACT ME</li>
           <li>star drawing</li>
@@ -109,7 +125,7 @@
           <li><button type="submit">Send</button></li>
         </ul>
       </section>
-      <footer class="footer-a">
+      <footer class="footer-a grid-borders">
         <ul class="ul-footer-a">
           <li>
             <h4>LOCATION</h4>
@@ -128,7 +144,7 @@
           </li>
         </ul>
       </footer>
-      <footer class="footer-b">
+      <footer class="footer-b grid-borders">
         <p>Copyright © Brand 2023</p>
       </footer>
     </div>

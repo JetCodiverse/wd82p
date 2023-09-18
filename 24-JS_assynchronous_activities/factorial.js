@@ -10,4 +10,4 @@ function factorial(number) {
   }
 }
 
-console.log(factorial(5));
+console.log(factorial(10));

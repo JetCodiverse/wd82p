@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="grid-container">
+        <div class="calculator">
+          <form>
+            <div>
+              <input type="text" id="history" placeholder="0" readonly />
+            </div>
+
+            <div>
+              <input
+                type="text"
+                placeholder="0"
+                name="display"
+                readonly
+                id="display"
+              />
+            </div>
+            <div>
+              <input type="button" value="AC" class="btns all-clear-btn" />
+              <input type="button" value="C" class="btns clear-btn" />
+              <input type="button" value="." class="btns num-btns" />
+              <input type="button" value="/" class="btns oper-btns" />
+            </div>
+            <div>
+              <input type="button" value="7" class="btns num-btns" />
+              <input type="button" value="8" class="btns num-btns" />
+              <input type="button" value="9" class="btns num-btns" />
+              <input type="button" value="*" class="btns oper-btns" />
+            </div>
+            <div>
+              <input type="button" value="4" class="btns num-btns" />
+              <input type="button" value="5" class="btns num-btns" />
+              <input type="button" value="6" class="btns num-btns" />
+              <input type="button" value="-" class="btns oper-btns" />
+            </div>
+            <div>
+              <input type="button" value="1" class="btns num-btns" />
+              <input type="button" value="2" class="btns num-btns" />
+              <input type="button" value="3" class="btns num-btns" />
+              <input type="button" value="+" class="btns oper-btns" />
+            </div>
+            <div>
+              <input type="button" value="00" class="btns num-btns" />
+              <input type="button" value="0" class="btns num-btns" />
+              <input type="button" value="=" class="btns equals-btn" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

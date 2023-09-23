@@ -1,0 +1,42 @@
+<div class="book-container" id="book-container">
+        <div class="content">
+          <ul>
+            <li>
+              <div class="book">
+                <ul class="front">
+                  <li>
+                    <div class="front-cover">
+                      <p class="heading">
+                        Tiny Changes, <br />
+                        Remarkable Results
+                      </p>
+                      <h2 class="title">Atomic Habits</h2>
+                      <p class="sub-title">
+                        An Easy & Proven Way <br />
+                        to Build Good Habits <br />
+                        & Break Bad Ones
+                      </p>
+                      <p class="author">James Clear</p>
+                      <p class="copyright">&copy;&nbsp; Copyright 2023</p>
+                    </div>
+                  </li>
+                  <li></li>
+                </ul>
+                <ul class="page">
+                  <li></li>
+                  <li>
+                    <a href="#" class="btn">Download</a>
+                  </li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+                <ul class="back">
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>

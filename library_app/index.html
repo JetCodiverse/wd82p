@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library Webapp</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Library Webapp</h1>
+      <p>A Library Webapp built with HTML, CSS and Javascript.</p>
+    </div>
+    <hr />
+
+    <button id="add-modal-btn" class="add-modal-btn">+</button>
+
+    <div id="modal-container" class="modal-container">
+      <form class="modal">
+        <input
+          id="title-input"
+          class="title-input"
+          type="text"
+          placeholder="Title"
+          required
+        />
+
+        <input
+          id="author-input"
+          class="author-input"
+          type="text"
+          placeholder="Author"
+          required
+        />
+        <input
+          id="footer-input"
+          class="footer-input"
+          type="text"
+          placeholder="Pages"
+          required
+        />
+        <button id="add-book-btn" class="add-book-btn" type="submit">
+          Add
+        </button>
+        <button class="cancel-btn" type="submit" id="cancel-btn">Cancel</button>
+      </form>
+    </div>
+
+    <main id="main" class="main">
+      <!-- <div class="book-container">
+        <div class="content">
+          <ul>
+            <li>
+              <div class="book">
+                <ul class="front">
+                  <li>
+                    <div class="front-cover">
+                      <p class="heading">
+                        Tiny Changes, <br />
+                        Remarkable Results
+                      </p>
+                      <h2 class="title">Atomic Habits</h2>
+                      <p class="sub-title">
+                        An Easy & Proven Way <br />
+                        to Build Good Habits <br />
+                        & Break Bad Ones
+                      </p>
+                      <p class="author">James Clear</p>
+                      <p class="copyright">&copy;&nbsp; Copyright 2023</p>
+                    </div>
+                  </li>
+                  <li></li>
+                </ul>
+                <ul class="page">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+                <ul class="back">
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div> -->
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>

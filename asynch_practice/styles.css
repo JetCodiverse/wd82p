@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  margin: 0;
+}
+
+#shopping-list {
+  padding: 5px;
+  list-style-type: none;
+  width: 100%;
+  height: 100dvh;
+
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.shop-item {
+  background-color: antiquewhite;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+img {
+  width: 120px;
+  height: 100px;
+}
+
+h2 {
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  align-items: start;
+}
+
+p {
+  text-align: center;
+}
+
+@media screen and (min-width: 400px) {
+  #shopping-list {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media screen and (min-width: 560px) {
+  #shopping-list {
+    grid-template-columns: repeat(3, auto);
+  }
+}
+
+@media screen and (min-width: 880px) {
+  #shopping-list {
+    grid-template-columns: repeat(4, auto);
+  }
+}
+
+@media screen and (min-width: 990px) {
+  #shopping-list {
+    grid-template-columns: repeat(5, auto);
+  }
+}

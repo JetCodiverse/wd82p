@@ -80,6 +80,8 @@ header {
   z-index: 888;
   height: 60px;
   width: 60px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 7px rgba(73, 254, 194, 1);
 }
 
 main {
@@ -93,7 +95,7 @@ main {
   width: 300px;
   margin: 1rem;
   background-color: var(--secondary-color);
-  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 7px rgba(73, 254, 194, 1);
   position: relative;
   overflow: hidden;
   border-radius: 3px;

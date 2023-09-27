@@ -3,6 +3,7 @@
 :root {
   --primary-color: #22254b;
   --secondary-color: #373b69;
+  --brand-color: #49fec2;
 }
 
 * {
@@ -38,14 +39,9 @@ header {
 }
 
 .logo {
-  height: 45px;
-  width: 65px;
+  height: 60px;
+  width: 120px;
   margin-left: 20px;
-}
-
-.brand-name {
-  color: #fff;
-  font-family: inherit;
 }
 
 .search {

@@ -31,7 +31,9 @@ function showMovies(movies) {
             <img src="${IMG_PATH + poster_path}" alt="${title}">
             <div class="movie-info">
           <h3>${title}</h3>
-          <span class="${getClassByRate(vote_average)}">${vote_average}</span>
+          <span class="${getClassByRate(
+            vote_average.toFixed(1)
+          )}">${vote_average.toFixed(1)}</span>
             </div>
             <div class="overview">
           <h3>Overview</h3>
@@ -43,7 +45,7 @@ function showMovies(movies) {
 }
 
 function getClassByRate(vote) {
-  if (vote >= 8) {
+  if (vote >= 7.5) {
     return "green";
   } else if (vote >= 5) {
     return "orange";

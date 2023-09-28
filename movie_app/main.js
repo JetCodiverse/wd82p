@@ -3,6 +3,8 @@ const API_URL =
 const IMG_PATH = "https://image.tmdb.org/t/p/w1280";
 const SEARCH_API =
   'https://api.themoviedb.org/3/search/movie?api_key=3fd2be6f0c70a2a598f084ddfb75487c&query="';
+const MOVIE_HOMEPAGE =
+  "https://api.themoviedb.org/3/movie/movie/movie_id?language=en-US";
 
 const main = document.getElementById("main");
 const form = document.getElementById("form");
@@ -22,7 +24,7 @@ function showMovies(movies) {
   main.innerHTML = "";
 
   movies.forEach((movie) => {
-    const { title, poster_path, vote_average, overview } = movie;
+    const { title, poster_path, vote_average, overview, id } = movie;
 
     const movieEl = document.createElement("div");
     movieEl.classList.add("movie");
@@ -41,6 +43,10 @@ function showMovies(movies) {
         </div>
         `;
     main.appendChild(movieEl);
+
+    movieEl.addEventListener("click", () => {
+      console.log(id, MOVIE_HOMEPAGE, movie);
+    });
   });
 }
 
